@@ -3,8 +3,10 @@
 
 	loadrt [KINS]KINEMATICS
 	loadrt [EMCMOT]EMCMOT base_period_nsec=[EMCMOT]BASE_PERIOD servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS
-
+	# For LPC
 	loadrt remora
+	# For STM
+	# loadrt remora chip_type=STM SPI_clk_div=16 PRU_base_freq=80000
 
 
 # estop loopback, SPI comms enable and feedback
