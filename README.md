@@ -13,7 +13,9 @@ Remora is a free, opensource LinuxCNC component and Programmable Realtime Unit (
  
  
  -支持传统的打印机组件（采用的是Bigtreetech的打印机主板），适合多轴控制
+ 
  -契合LinuxCNC的配置方式，在此基础上配置插补算法
+ 
  -成本低廉，采购方便
  
 
